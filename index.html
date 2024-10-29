@@ -18,6 +18,7 @@
 
 <body>
     <!-- Nav Bar -->
+    <!-- Possible Tablet/Mobile Nav Bars -->
     <!-- <nav class="navbar navbar-expand-lg navbar-bg-color" data-bs-theme="dark">
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -51,44 +52,81 @@
             </div>
         </div>
     </nav> -->
-    <ul class="nav justify-content-center align-items-end pb-2 navbar-bg-color">
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-                <p>Overview</p>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-                <p>Rooms</p>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-                <p>Packages</p>
-            </a>
-        </li>
+    <!-- <nav class="navbar navbar-expand-lg navbar-bg-color" data-bs-theme="dark">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="#">
+                        <p> Overview </p>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <p> Rooms </p>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <p> Packages </p>
+                    </a>    
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="./assets/Logo.png" alt="La Petite Maison Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="nav-link" href="#">
+                        <p> Amenities </p>
+                    </a>    
+                    <a class="nav-link" href="#">
+                        <p> Contact </p>
+                    </a>    
+                    <a class="nav-link" href="#">
+                        <p> Reserve </p>
+                    </a>    
+                </div>
+            </div>
+        </div>
+    </nav> -->
 
-        <img class="py-2 mx-4" src="./assets/Logo.png" alt="Hamster Hotel Logo">
+    <div class="d-none d-lg-block container-fluid m-0 p-0">
+        <ul class="nav justify-content-center align-items-end pb-2 navbar-bg-color">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <p>Overview</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <p>Rooms</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <p>Packages</p>
+                </a>
+            </li>
 
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-                <p>Amenities</p>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-                <p>Contact</p>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-                <p class="reserve-button">Reserve</p>
-            </a>
-        </li>
-    </ul>
+            <img class="py-2 mx-4" src="./assets/Logo.png" alt="Hamster Hotel Logo">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <p>Amenities</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <p>Contact</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <p class="reserve-button">Reserve</p>
+                </a>
+            </li>
+        </ul>
+
+    </div>
     <!-- Header Banner -->
     <div class="container-fluid m-0 p-0">
-        <img class="image-resize" src="./assets/header.jpg" alt="Image of a pool area and furniture">
+        <img class="header-image-resize" src="./assets/header.jpg" alt="Image of a pool area and furniture">
         <div class="container">
             <div class="row">
                 <div class="col-6 text-center banner-container">
@@ -97,8 +135,45 @@
                 </div>
             </div>
         </div>
+
+        <!-- Overview Blurb -->
+        <div class="container overview-blurb">
+            <div class="row m-5 py-5">
+                <div class="col-4 p-0">
+                    <img class="overview-image-resize" src="./assets/hamsterhomejpg.jpg" alt="">
+                </div>
+                <div class="col-8">
+                    <div class="container">
+                        <div class="row">
+                            <h1 class="overview-header-text"> Welcome to a hamster's paradise</h1>
+                            <p class="overview-body-text">
+                                Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel designed for the
+                                small mammal with extravagance in mind. Escape to the warm comforts of stunning rooms, a
+                                relaxing spa, and a pool with a beach side view.
+                                <br>
+                                <br>
+                                Inspired by the warm beauty of the California
+                                Coast, we invite you to enjoy the rich accommodations along with our unmatched luxury. Discover
+                                the satisfaction of indulging in our quality rooms, and thank you for choosing La Petite Maison.
+                            </p>
+                        </div>
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <div class="col">
+                                <img src="./assets/awardfinest.png" alt="The Finest Quality Excellence Award Logo">
+                            </div>
+                            <div class="col">
+                                <img src="./assets/awardsatisfaction.png" alt="Satisfaction Guaranteed Certification">
+                            </div>
+                            <div class="col">
+                                <img src="./assets/awardgenuine.png" alt="Satisfaction Guaranteed Genuine Logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
-    <!-- Overview Blurb -->
 
     <!-- Reserve Room Ad Cards -->
 

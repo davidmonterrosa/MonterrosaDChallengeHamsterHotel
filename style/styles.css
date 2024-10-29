@@ -20,7 +20,7 @@
 
 }
 
-.image-resize {
+.header-image-resize {
     width: 100%;
     height: 500px;
     object-fit: cover;
@@ -42,11 +42,31 @@
     font-family: "Dosis", sans-serif;
     font-weight: lighter;
     font-size:  2.8125em;
-
+    
 }
 
 .banner-container > p {
     font-family: "Source Sans 3", sans-serif;
     font-weight: lighter;
+}
 
+.overview-blurb {
+    color: #1A1B26;
+}
+
+.overview-header-text {
+    font-family: "Dosis", sans-serif;
+    font-weight: lighter;
+    font-size:  2.1875em;
+}
+
+.overview-body-text {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: lighter;
+}
+
+.overview-image-resize {
+    width: 100%;
+    height: 416px;
+    object-fit: cover;
 }
