@@ -19,74 +19,45 @@
 <body>
     <!-- Nav Bar -->
     <!-- Possible Tablet/Mobile Nav Bars -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-bg-color" data-bs-theme="dark">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" aria-current="page" href="#">
-                        <p> Overview </p>
-                    </a>
-                    <a class="nav-link" href="#">
-                        <p> Rooms </p>
-                    </a>
-                    <a class="nav-link" href="#">
-                        <p> Packages </p>
-                    </a>    
-                    <a class="navbar-brand" href="./index.html">
-                        <img src="./assets/Logo.png" alt="La Petite Maison Logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a class="nav-link" href="#">
-                        <p> Amenities </p>
-                    </a>    
-                    <a class="nav-link" href="#">
-                        <p> Contact </p>
-                    </a>    
-                    <a class="nav-link" href="#">
-                        <p> Reserve </p>
-                    </a>    
+    <!-- <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-bg-color" data-bs-theme="dark">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link nav-text-justify" aria-current="page" href="#">
+                            <p> Overview </p>
+                        </a>
+                        <a class="nav-link" href="#">
+                            <p> Rooms </p>
+                        </a>
+                        <a class="nav-link" href="#">
+                            <p> Packages </p>
+                        </a>
+                        <a class="navbar-brand" href="./index.html">
+                            <img src="./assets/Logo.png" alt="La Petite Maison Logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="nav-link" href="#">
+                            <p> Amenities </p>
+                        </a>
+                        <a class="nav-link" href="#">
+                            <p> Contact </p>
+                        </a>
+                        <a class="nav-link" href="#">
+                            <p> Reserve </p>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav> -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-bg-color" data-bs-theme="dark">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" aria-current="page" href="#">
-                        <p> Overview </p>
-                    </a>
-                    <a class="nav-link" href="#">
-                        <p> Rooms </p>
-                    </a>
-                    <a class="nav-link" href="#">
-                        <p> Packages </p>
-                    </a>    
-                    <a class="navbar-brand" href="./index.html">
-                        <img src="./assets/Logo.png" alt="La Petite Maison Logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a class="nav-link" href="#">
-                        <p> Amenities </p>
-                    </a>    
-                    <a class="nav-link" href="#">
-                        <p> Contact </p>
-                    </a>    
-                    <a class="nav-link" href="#">
-                        <p> Reserve </p>
-                    </a>    
-                </div>
-            </div>
-        </div>
-    </nav> -->
+        </nav>
+    </div> -->
 
-    <div class="d-none d-lg-block container-fluid m-0 p-0">
+    <!-- Nav Bar Desktop -->
+    <!-- <div class="d-none d-lg-block container-fluid m-0 p-0">
         <ul class="nav justify-content-center align-items-end pb-2 navbar-bg-color">
             <li class="nav-item">
                 <a class="nav-link" href="#">
@@ -124,7 +95,7 @@
         </ul>
 
     </div>
-
+ -->
     <!-- Header Banner -->
     <header class="container-fluid header-background m-0 p-0">
         <div class="row down-padding d-flex justify-content-center m-0">
@@ -248,22 +219,22 @@
     </div>
 
     <!-- Packages Section -->
-    <div class="container">
-        <div class="row mt-5">
+    <div class="container my-6">
+        <div class="row">
             <div class="col">
                 <h1 class="section-title text-center"> Packages </h1>
             </div>
         </div>
 
         <!-- Beach Wedding Package Card -->
-        <div class="row">
-            <div class="col-6">
+        <div class="row d-flex justify-content-center">
+            <div class="col-5 d-flex justify-content-center">
                 <img class="package-thumbnail" src="./assets/hamsterwedding.jpg" alt="">
             </div>
-            <div class="col-6">
-                <h1 class="card-title card-title-style">Beach Wedding package</h1>
-                <p class="card-body price-text-blue">Starting US $1,500.00</p>
-                <p>
+            <div class="col-5">
+                <h1 class="card-title card-title-style my-3">Beach Wedding package</h1>
+                <p class="price-text-blue">Starting US $1,500.00</p>
+                <p class="card-text-style">
                     Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side
                     wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla
                     standard cake). A private dinner for your closets family members and friends will be provided after
@@ -273,31 +244,31 @@
         </div>
 
         <!-- Full Bloom Package Card -->
-        <div class="row">
-            <div class="col-6">
-                <h1 class="card-title card-title-style">Full Bloom Package</h1>
-                <p class="card-body price-text-blue">Starting US $1,000.00</p>
-                <p>
+        <div class="row d-flex justify-content-center">
+            <div class="col-5 ">
+                <h1 class="card-title card-title-style my-3">Full Bloom Package</h1>
+                <p class="price-text-blue">Starting US $1,000.00</p>
+                <p class="card-text-style">
                     Enjoy the shade of our cherry trees as you join us during our spring time celebration. We invite you
                     to our orchards for cherry, strawberry, and apple picking that is open all day. We end each evening
                     with fresh, vegetable centric dinners along with a live show from local musicians.
                 </p>
             </div>
-            <div class="col-6">
+            <div class="col-5 d-flex justify-content-center">
                 <img class="package-thumbnail" src="./assets/hamsterspring.jpg" alt="">
             </div>
 
         </div>
 
         <!-- Cheese and Seed Tour Package Card -->
-        <div class="row mb-5">
-            <div class="col-6">
+        <div class="row d-flex justify-content-center">
+            <div class="col-5 d-flex justify-content-center">
                 <img class="package-thumbnail" src="./assets/hamstercheese.jpg" alt="">
             </div>
-            <div class="col-6">
-                <h1 class="card-title card-title-style">Cheese and Seed Tour Package</h1>
-                <p class="card-body price-text-blue">Starting US $1,200.00</p>
-                <p>
+            <div class="col-5">
+                <h1 class="card-title card-title-style my-3">Cheese and Seed Tour Package</h1>
+                <p class="price-text-blue">Starting US $1,200.00</p>
+                <p class="card-text-style">
                     Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We consulted with
                     connoisseurs from around the globe to bring you the best flavors that nature has to offer, and
                     create our cheeses right here at our local creamery. Cheese and seeds are served all day and nightly
