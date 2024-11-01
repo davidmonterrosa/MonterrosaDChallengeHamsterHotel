@@ -18,68 +18,72 @@
 
 <body>
     <!-- Nav Bar -->
-    <div class="container-fluid d-flex justify-content-center m-0 p-0 navbar-bg-color">
-        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <div class="container-fluid justify-lg-center m-0 p-0 navbar-bg-color">
+        <nav class="navbar navbar-expand-lg p-0" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand d-lg-none" href="#">
-                    <img class="py-2 mx-4" src="./assets/Logo.png" alt="Hamster Hotel Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler my-3" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <div class="offcanvas-title" id="offcanvasNavbarLabel">
+                            <img src="./assets/Logo.png" alt="Hamster Hotel Logo">
+                        </div>
+                        <button type="button" class="btn-close me-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                            <li class="nav-item d-flex align-items-end">
+                                <a class="nav-link" href="#">
+                                    <p>
+                                        Overview
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex align-items-end">
+                                <a class="nav-link" href="#">
+                                    <p>
+                                        Rooms
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex align-items-end">
+                                <a class="nav-link" href="#">
+                                    <p>
+                                        Packages
+                                    </p>
+                                </a>
+                            </li>
 
-                <div class="collapse navbar-collapse" style="max-width: fit-content;" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item d-flex align-items-end">
-                            <a class="nav-link" href="#">
-                                <p>
-                                    Overview
-                                </p>
-                            </a>
-                        </li>
-                        <li class="nav-item d-flex align-items-end">
-                            <a class="nav-link" href="#">
-                                <p>
-                                    Rooms
-                                </p>
-                            </a>
-                        </li>
-                        <li class="nav-item d-flex align-items-end">
-                            <a class="nav-link" href="#">
-                                <p>
-                                    Packages
-                                </p>
-                            </a>
-                        </li>
+                            <a class="navbar-brand d-none d-lg-block m-0 py-2" href="#">
+                                <img class="mx-4" src="./assets/Logo.png" alt="Hamster Hotel Logo">
+                            </a>    
 
-                        <a class="navbar-brand d-none d-lg-block" href="#">
-                            <img class="py-2 mx-4" src="./assets/Logo.png" alt="Hamster Hotel Logo">
-                        </a>
-
-                        <li class="nav-item d-flex align-items-end">
-                            <a class="nav-link" href="#">
-                                <p>
-                                    Amenities
-                                </p>
-                            </a>
-                        </li>
-                        <li class="nav-item d-flex align-items-end">
-                            <a class="nav-link" href="#">
-                                <p>
-                                    Contact
-                                </p>
-                            </a>
-                        </li>
-                        <li class="nav-item d-flex align-items-end">
-                            <a class="nav-link reserve-button" href="#">
-                                <p class="reserve-button">
-                                    Reserve
-                                </p>
-                            </a>
-                        </li>
-                    </ul>
+                            <li class="nav-item d-flex align-items-end">
+                                <a class="nav-link" href="#">
+                                    <p>
+                                        Amenities
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex align-items-end">
+                                <a class="nav-link" href="#">
+                                    <p>
+                                        Contact
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex align-items-end">
+                                <a class="nav-link reserve-button" href="#">
+                                    <p class="reserve-button">
+                                        Reserve
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -87,8 +91,8 @@
     </div>
 
     <!-- Header Banner -->
-    <header class="container-fluid header-background">
-        <div class="row down-padding d-flex justify-content-center m-0">
+    <header class="container-fluid d-flex flex-column justify-content-center header-background p-0">
+        <div class="row d-flex justify-content-center m-0">
             <div class="col-lg-6 banner-contain">
                 <h1 class="banner-title text-center"> Run on the wheel of luxury </h1>
                 <p class="text-center"> Explore everything the beach has to offer in our relaxing resort. </p>
@@ -99,14 +103,14 @@
     <!-- Overview Blurb -->
     <div class="container overview-blurb">
         <div class="row m-5 py-5">
-            <div class="col-lg-4 p-0">
-                <img class="overview-image-resize" src="./assets/hamsterhomejpg.jpg" alt="">
+            <div class="col-lg-4 d-none d-md-block p-0">
+                <img class="overview-image-resize pe-3" src="./assets/hamsterhomejpg.jpg" alt="">
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 p-0">
                 <div class="container">
                     <div class="row">
                         <div class="col m-0 p-0">
-                            <h1 class="section-title"> Welcome to a hamster's paradise</h1>
+                            <h1 class="section-title text-center text-lg-start"> Welcome to a hamster's paradise</h1>
                             <p class="section-body">
                                 Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel designed
                                 for the
@@ -124,13 +128,16 @@
                     </div>
                     <div class="row d-flex justify-content-between align-items-center">
                         <div class="col-4">
-                            <img class="img-fluid" src="./assets/awardfinest.png" alt="The Finest Quality Excellence Award Logo">
+                            <img class="img-fluid" src="./assets/awardfinest.png"
+                                alt="The Finest Quality Excellence Award Logo">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid" src="./assets/awardsatisfaction.png" alt="Satisfaction Guaranteed Certification">
+                            <img class="img-fluid" src="./assets/awardsatisfaction.png"
+                                alt="Satisfaction Guaranteed Certification">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid" src="./assets/awardgenuine.png" alt="Satisfaction Guaranteed Genuine Logo">
+                            <img class="img-fluid" src="./assets/awardgenuine.png"
+                                alt="Satisfaction Guaranteed Genuine Logo">
                         </div>
                     </div>
                 </div>
@@ -147,14 +154,14 @@
             </div>
         </div>
         <div class="row d-flex justify-content-center">
-            <div class="col">
-                <div class="card-group">
-                    <div class="card" style="width: fit-content; height: 32.625em; border-radius: 0%;">
+            <div class="col d-flex justify-content-center">
+                <div class="card-group gap-3">
+                    <div class="card room-card-style">
                         <img src="./assets/room1.jpg" class="card-img-top card-img-style" alt="Queen Room">
-                        <div class="card-body overflow-scroll">
+                        <div class="card-body room-card-body">
                             <h5 class="card-title card-title-style">Queen Room</h5>
                             <p class="card-text card-bold-text">850 SQ FT room with city view</p>
-                            <p class="card-text card-text-style">
+                            <p class="card-text card-text-style flex-grow-1">
                                 • One queen size bed
                                 <br>
                                 <br>
@@ -163,16 +170,16 @@
                                 <br>
                                 • Small kitchen with a refrigerator and stove
                             </p>
-                            <a href="#" class="btn btn-primary btn-radius-zero">Reserve</a>
+                            <a href="#" class="btn btn-primary button-lg-width">Reserve</a>
 
                         </div>
                     </div>
-                    <div class="card" style="width: fit-content; height: 32.625em; border-radius: 0%;">
+                    <div class="card room-card-style">
                         <img src="./assets/room3.jpg" class="card-img-top card-img-style" alt="king Room">
-                        <div class="card-body overflow-scroll">
+                        <div class="card-body room-card-body">
                             <h5 class="card-title card-title-style">King Room</h5>
                             <p class="card-text card-bold-text">950 SQ FT room with beach view </p>
-                            <p class="card-text card-text-style">
+                            <p class="card-text card-text-style flex-grow-1">
                                 • One king size bed
                                 <br>
                                 <br>
@@ -181,16 +188,16 @@
                                 <br>
                                 • Small kitchen with a refrigerator and stove
                             </p>
-                            <a href="#" class="btn btn-primary btn-radius-zero">Reserve</a>
+                            <a href="#" class="btn btn-primary button-lg-width">Reserve</a>
 
                         </div>
                     </div>
-                    <div class="card" style="width: fit-content; height: 32.625em; border-radius: 0%;">
+                    <div class="card room-card-style">
                         <img src="./assets/room2.jpg" class="card-img-top card-img-style" alt="Beach Side">
-                        <div class="card-body overflow-scroll">
+                        <div class="card-body room-card-body">
                             <h5 class="card-title card-title-style">Beach Side Suite</h5>
                             <p class="card-text card-bold-text">1500 SQ FT Suite with beach view</p>
-                            <p class="card-text card-text-style">
+                            <p class="card-text card-text-style ">
                                 • One California king size bed
                                 <br>
                                 <br>
@@ -202,7 +209,7 @@
                                 <br>
                                 • Full kitchen with a refrigerator, stove, and island
                             </p>
-                            <a href="#" class="btn btn-primary btn-radius-zero">Reserve</a>
+                            <a href="#" class="btn btn-primary button-lg-width">Reserve</a>
 
                         </div>
                     </div>
@@ -225,14 +232,17 @@
                 <div class="card mb-3 border-0">
                     <div class="row g-0">
                         <div class="col-md-6">
-                            <img src="./assets/hamsterwedding.jpg" class="package-thumbnail" alt="Hamster Wedding Picture">
+                            <img src="./assets/hamsterwedding.jpg" class="package-thumbnail"
+                                alt="Hamster Wedding Picture">
                         </div>
                         <div class="col-md-6">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
                                     additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </p>
                             </div>
                         </div>
                     </div>
