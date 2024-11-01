@@ -18,7 +18,7 @@
 
 <body>
     <!-- Nav Bar -->
-    <div class="container-fluid justify-lg-center m-0 p-0 navbar-bg-color">
+    <div class="container-fluid sticky-top justify-lg-center m-0 p-0 navbar-bg-color">
         <nav class="navbar navbar-expand-lg p-0" data-bs-theme="dark">
             <div class="container-fluid">
                 <button class="navbar-toggler my-3" type="button" data-bs-toggle="offcanvas"
@@ -29,7 +29,9 @@
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header navbar-bg-color">
                         <div class="offcanvas-title" id="offcanvasNavbarLabel">
-                            <img src="./assets/Logo.png" alt="Hamster Hotel Logo">
+                            <a href="#top">
+                                <img src="./assets/Logo.png" alt="Hamster Hotel Logo">
+                            </a>
                         </div>
                         <button type="button" class="btn-close me-0" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
@@ -37,47 +39,47 @@
                     <div class="offcanvas-body navbar-bg-color">
                         <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
                             <li class="nav-item d-flex align-items-end">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="#overview">
                                     <p>
                                         Overview
                                     </p>
                                 </a>
                             </li>
                             <li class="nav-item d-flex align-items-end">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="#rooms">
                                     <p>
                                         Rooms
                                     </p>
                                 </a>
                             </li>
                             <li class="nav-item d-flex align-items-end">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="#packages">
                                     <p>
                                         Packages
                                     </p>
                                 </a>
                             </li>
 
-                            <a class="navbar-brand d-none d-lg-block m-0 py-2" href="#">
+                            <a class="navbar-brand d-none d-lg-block m-0 py-2" href="#top">
                                 <img class="mx-4" src="./assets/Logo.png" alt="Hamster Hotel Logo">
                             </a>
 
                             <li class="nav-item d-flex align-items-end">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="#amenities">
                                     <p>
                                         Amenities
                                     </p>
                                 </a>
                             </li>
                             <li class="nav-item d-flex align-items-end">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href="#contact">
                                     <p>
                                         Contact
                                     </p>
                                 </a>
                             </li>
                             <li class="nav-item d-flex align-items-end">
-                                <a class="nav-link reserve-button" href="#">
+                                <a class="nav-link reserve-button" href="#reserve">
                                     <p class="reserve-button">
                                         Reserve
                                     </p>
@@ -92,11 +94,11 @@
     </div>
 
     <!-- Header Banner -->
-    <header class="container-fluid d-flex flex-column justify-content-center header-background p-0">
+    <header class="container-fluid d-flex flex-column justify-content-center header-background p-0" id="top">
         <div class="row d-flex justify-content-center m-0">
             <div class="col-lg-6 banner-contain">
                 <h1 class="banner-title text-center"> Run on the wheel of luxury </h1>
-                <p class="text-center"> Explore everything the beach has to offer in our relaxing resort. </p>
+                <p class="text-center" id="overview"> Explore everything the beach has to offer in our relaxing resort. </p>
             </div>
         </div>
     </header>
@@ -138,7 +140,7 @@
                         </div>
                         <div class="col-4">
                             <img class="img-fluid" src="./assets/awardgenuine.png"
-                                alt="Satisfaction Guaranteed Genuine Logo">
+                                alt="Satisfaction Guaranteed Genuine Logo" id="rooms">
                         </div>
                     </div>
                 </div>
@@ -210,7 +212,7 @@
                                 <br>
                                 • Full kitchen with a refrigerator, stove, and island
                             </p>
-                            <a href="#" class="btn btn-primary button-lg-width">Reserve</a>
+                            <a href="#" class="btn btn-primary button-lg-width" id="packages">Reserve</a>
 
                         </div>
                     </div>
@@ -233,11 +235,11 @@
                 <div class="card mb-3 border-0">
                     <div class="row d-flex justify-content-center g-0">
                         <div class="col-md-5 d-flex flex-column justify-content-center">
-                            <img src="./assets/hamsterwedding.jpg" class="package-thumbnail beach-wedding-position"
+                            <img src="./assets/hamsterwedding.jpg" class="package-thumbnail beach-wedding-position pe-2"
                                 alt="Hamster Wedding Picture">
                         </div>
                         <div class="col-md-5">
-                            <div class="card-body">
+                            <div class="card-body ps-md-2 p-0">
                                 <h1 class="card-title card-title-style my-3">Beach Wedding package</h1>
                                 <p class="price-text-blue">Starting US $1,500.00</p>
                                 <p class="card-text-style">
@@ -267,7 +269,7 @@
                                 alt="Hamster Flowers Picture">
                         </div>
                         <div class="col-md-5">
-                            <div class="card-body">
+                            <div class="card-body pe-md-2 p-0">
                                 <h1 class="card-title card-title-style my-3">Full Bloom Package</h1>
                                 <p class="price-text-blue">Starting US $1,000.00</p>
                                 <p class="card-text-style">
@@ -280,7 +282,7 @@
                             </div>
                         </div>
                         <div class="col-md-5 d-none d-md-block">
-                            <img src="./assets/hamsterspring.jpg" class="package-thumbnail full-bloom-position"
+                            <img src="./assets/hamsterspring.jpg" class="package-thumbnail ps-2 full-bloom-position"
                                 alt="Hamster Flowers Picture">
                         </div>
                     </div>
@@ -294,14 +296,14 @@
                 <div class="card mb-3 border-0">
                     <div class="row d-flex justify-content-center g-0">
                         <div class="col-md-5">
-                            <img src="./assets/hamstercheese.jpg" class="package-thumbnail cheese-tour-position"
+                            <img src="./assets/hamstercheese.jpg" class="package-thumbnail cheese-tour-position pe-2"
                                 alt="Hamster with cheese">
                         </div>
                         <div class="col-md-5">
-                            <div class="card-body">
+                            <div class="card-body ps-md-2 p-0">
                                 <h1 class="card-title card-title-style my-3">Cheese and Seed Tour Package</h1>
                                 <p class="price-text-blue">Starting US $1,200.00</p>
-                                <p class="card-text-style">
+                                <p class="card-text-style" id="amenities">
                                     Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We consulted
                                     with
                                     connoisseurs from around the globe to bring you the best flavors that nature has to
@@ -331,21 +333,21 @@
             </div>
         </div>
         <div class="row d-flex justify-content-center align-items-end amenities-row-margins">
-            <div class="col-md-6 col-lg-2 p-0 d-flex flex-column align-items-center my-5" >
+            <div class="col-md-6 col-lg-2 p-0 d-flex flex-column align-items-center my-3" >
                 <img class="hour24-image-resize" src="./assets/24hour.png" alt="24 Hour Room Service">
-                <p class="mt-5 icon-text text-white text-center">24 Hour Room Service</p>
+                <p class="mt-3 mt-lg-5 icon-text text-white text-center">24 Hour Room Service</p>
             </div>
-            <div class="col-md-6 col-lg-2 p-0 d-flex flex-column align-items-center my-5" >
+            <div class="col-md-6 col-lg-2 p-0 d-flex flex-column align-items-center my-3" >
                 <img class="breakfast-image-resize" src="./assets/breakfast.png" alt="Complimentary Breakfast">
-                <p class="mt-5 icon-text text-white text-center">Complimentary Breakfast</p>
+                <p class="mt-3 mt-lg-5 icon-text text-white text-center">Complimentary Breakfast</p>
             </div>
-            <div class="col-md-6 col-lg-2 p-0 d-flex flex-column align-items-center my-5" >
+            <div class="col-md-6 col-lg-2 p-0 d-flex flex-column align-items-center my-3" >
                 <img class="valet-image-resize" src="./assets/valet.png" alt="Valet Parking Service">
-                <p class="mt-5 icon-text text-white text-center">Valet Parking</p>
+                <p class="mt-3 mt-lg-5 icon-text text-white text-center">Valet Parking</p>
             </div>
-            <div class="col-md-6 col-lg-2 p-0  d-flex flex-column align-items-center my-5">
+            <div class="col-md-6 col-lg-2 p-0  d-flex flex-column align-items-center my-3">
                 <img class="beachside-image-resize" src="./assets/pool.png" alt="Beachside Pool">
-                <p class="mt-5 icon-text text-white text-center">Beachside Pool</p>
+                <p class="mt-3 mt-lg-5 icon-text text-white text-center" id="reserve">Beachside Pool</p>
             </div>
         </div>
     </div>
@@ -389,7 +391,7 @@
     </div>
 
     <!-- Footer -->
-    <footer class="container-fluid">
+    <footer class="container-fluid" id="contact">
         <div class="row d-flex flex-column">
             <div class="col my-4 d-flex justify-content-center">
                 <img src="./assets/Logo.png" alt="Hamster Hotel Logo">
