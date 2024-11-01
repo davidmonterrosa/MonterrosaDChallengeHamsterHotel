@@ -11,5 +11,5 @@
 + mm/dd/yyyy - DM - short description
 - 10/28/2024 - DM - Created git repository.
 
-Peer Reviewed By: 
-> Comments:
+Peer Reviewed By: Tanush Kumar
+> Comments: Great job with making it exactly like the prototype and great job with making it responsive!!
