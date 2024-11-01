@@ -1,6 +1,7 @@
 /* General Use */
 .my-6 {
-    margin: 6.75em;
+    margin-top: 6.75em;
+    margin-bottom: 6.75em;    
 }
 
 /* Navigation Bar Styling */
@@ -212,7 +213,7 @@
 }
 
 .icon-width {
-    max-width:fit-content;
+    max-width: fit-content;
     
 }
 
