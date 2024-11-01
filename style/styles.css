@@ -1,7 +1,6 @@
 /* General Use */
-.my-6 {
+.mt-6 {
     margin-top: 6.75em;
-    margin-bottom: 6.75em;    
 }
 
 /* Navigation Bar Styling */
@@ -235,8 +234,25 @@
     }
 }
 
-.amenities-image-resize {
-    width: 150px;
+.hour24-image-resize {
+    width: 9.375em;
+    height: 6.3125em;
+    
+}
+.breakfast-image-resize {
+    width: 9.375em;
+    height: 6.5em;
+}
+
+.valet-image-resize {
+    width: 6.25em;
+    height: 7.1875em;
+    
+}
+.beachside-image-resize {
+    width: 9.6875em;
+    height: 6.875em;
+
 }
 
 .icon-text {
@@ -245,10 +261,6 @@
     font-size:  1.25em;
 }
 
-.icon-width {
-    max-width: fit-content;
-    
-}
 
 /* Reserve Form Styling */
 .form-bg-color {
@@ -265,6 +277,17 @@
     object-fit: cover;
     object-position: 100% 76%;
 }
+
+.form-control {
+    border-radius: 0% !important;
+}
+
+.button-md-width {
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
+
 
 /* Footer Styling */
 footer {

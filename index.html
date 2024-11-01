@@ -27,14 +27,14 @@
                 </button>
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
+                    <div class="offcanvas-header navbar-bg-color">
                         <div class="offcanvas-title" id="offcanvasNavbarLabel">
                             <img src="./assets/Logo.png" alt="Hamster Hotel Logo">
                         </div>
                         <button type="button" class="btn-close me-0" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                     </div>
-                    <div class="offcanvas-body">
+                    <div class="offcanvas-body navbar-bg-color">
                         <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
                             <li class="nav-item d-flex align-items-end">
                                 <a class="nav-link" href="#">
@@ -220,7 +220,7 @@
     </div>
 
     <!-- Packages Section -->
-    <div class="container my-6">
+    <div class="container mt-6 mb-5">
         <div class="row">
             <div class="col">
                 <h1 class="section-title text-center"> Packages </h1>
@@ -330,21 +330,21 @@
                 </p>
             </div>
         </div>
-        <div class="row d-flex justify-content-center align-items-end">
-            <div class="col mx-5 d-flex flex-column align-items-center" style="max-width: fit-content;">
-                <img class="amenities-image-resize" src="./assets/24hour.png" alt="24 Hour Room Service">
+        <div class="row d-flex justify-content-center align-items-end amenities-row-margins">
+            <div class="col-md-6 col-lg-2 p-0 d-flex flex-column align-items-center my-5" >
+                <img class="hour24-image-resize" src="./assets/24hour.png" alt="24 Hour Room Service">
                 <p class="mt-5 icon-text text-white text-center">24 Hour Room Service</p>
             </div>
-            <div class="col mx-5 d-flex flex-column align-items-center" style="max-width: fit-content;">
-                <img class="amenities-image-resize" src="./assets/breakfast.png" alt="Complimentary Breakfast">
+            <div class="col-md-6 col-lg-2 p-0 d-flex flex-column align-items-center my-5" >
+                <img class="breakfast-image-resize" src="./assets/breakfast.png" alt="Complimentary Breakfast">
                 <p class="mt-5 icon-text text-white text-center">Complimentary Breakfast</p>
             </div>
-            <div class="col mx-5 d-flex flex-column align-items-center" style="max-width: fit-content;">
-                <img class="amenities-image-resize" src="./assets/valet.png" alt="Valet Parking Service">
+            <div class="col-md-6 col-lg-2 p-0 d-flex flex-column align-items-center my-5" >
+                <img class="valet-image-resize" src="./assets/valet.png" alt="Valet Parking Service">
                 <p class="mt-5 icon-text text-white text-center">Valet Parking</p>
             </div>
-            <div class="col mx-5 d-flex flex-column align-items-center" style="max-width: fit-content;">
-                <img class="amenities-image-resize" src="./assets/pool.png" alt="Beachside Pool">
+            <div class="col-md-6 col-lg-2 p-0  d-flex flex-column align-items-center my-5">
+                <img class="beachside-image-resize" src="./assets/pool.png" alt="Beachside Pool">
                 <p class="mt-5 icon-text text-white text-center">Beachside Pool</p>
             </div>
         </div>
@@ -352,12 +352,12 @@
 
     <!-- Reserve a Room Form -->
     <div class="container form-bg-color" style="max-width: fit-content;">
-        <div class="row pt-3">
+        <div class="row pt-4">
             <div class="col mb-3">
                 <h1 class="section-title text-center text-white">Reserve a Room</h1>
             </div>
         </div>
-        <div class="row mx-5 d-flex align-items-end text-white">
+        <div class="row mx-5 d-flex flex-column flex-lg-row align-items-end text-white">
             <div class="col mb-5">
                 <label for="exampleInputPassword1" class="form-label">Check-in</label>
                 <input type="password" class="form-control" id="exampleInputPassword1">
@@ -378,11 +378,11 @@
 
             </div>
             <div class="col mb-5">
-                <button type="submit" class="btn btn-primary">Check Availability</button>
+                <button type="submit" class="btn btn-primary button-md-width">Check Availability</button>
             </div>
         </div>
         <div class="row d-flex justify-content-center">
-            <div class="col d-flex justify-content-center m-0 p-0">
+            <div class="col d-none d-md-block d-flex justify-content-center m-0 p-0">
                 <img class="reserve-image-resize" src="./assets/hamsterreserve.jpg" alt="Hamsters">
             </div>
         </div>
